@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/CMakeGenericSystem.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/ExternalProject-gitupdate.cmake.in
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/ExternalProject.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/Platform/Windows.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/RepositoryInfo.txt.in
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/3.20.0/CMakeSystem.cmake
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeLists.txt
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/nameof-populate-prefix/tmp/nameof-populate-cfgcmd.txt.in

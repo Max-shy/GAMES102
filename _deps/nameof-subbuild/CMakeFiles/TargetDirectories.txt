@@ -1,0 +1,3 @@
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/nameof-populate.dir
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/ALL_BUILD.dir
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/ZERO_CHECK.dir

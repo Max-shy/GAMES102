@@ -1,0 +1,987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Systems\CanvasSystem.cpp">
+      <Filter>hw1\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\main.cpp">
+      <Filter>hw1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\details\CanvasData_AutoRefl.inl">
+      <Filter>hw1\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\CanvasData.h">
+      <Filter>hw1\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Cholesky\LDLT.h">
+      <Filter>hw1\Eigen\src\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Cholesky\LLT.h">
+      <Filter>hw1\Eigen\src\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Cholesky\LLT_LAPACKE.h">
+      <Filter>hw1\Eigen\src\Cholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\CholmodSupport\CholmodSupport.h">
+      <Filter>hw1\Eigen\src\CholmodSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Array.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ArrayBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ArrayWrapper.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Assign.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\AssignEvaluator.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Assign_MKL.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\BandMatrix.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Block.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\BooleanRedux.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CommaInitializer.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ConditionEstimator.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CoreEvaluators.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CoreIterators.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseBinaryOp.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseNullaryOp.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseTernaryOp.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseUnaryOp.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseUnaryView.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DenseBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DenseCoeffsBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DenseStorage.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Diagonal.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DiagonalMatrix.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DiagonalProduct.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Dot.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\EigenBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ForceAlignedAccess.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Fuzzy.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\GeneralProduct.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\GenericPacketMath.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\GlobalFunctions.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\IO.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Inverse.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Map.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MapBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MathFunctionsImpl.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Matrix.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MatrixBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\NestByValue.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\NoAlias.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\NumTraits.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\PermutationMatrix.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\PlainObjectBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Product.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ProductEvaluators.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Random.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Redux.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Ref.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Replicate.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ReturnByValue.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Reverse.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Select.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SelfAdjointView.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SelfCwiseBinaryOp.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Solve.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SolveTriangular.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SolverBase.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\StableNorm.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Stride.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Swap.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Transpose.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Transpositions.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\TriangularMatrix.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\VectorBlock.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\VectorwiseOp.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Visitor.h">
+      <Filter>hw1\Eigen\src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\Complex.h">
+      <Filter>hw1\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\TypeCasting.h">
+      <Filter>hw1\Eigen\src\Core\arch\AVX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX512\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\AVX512</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX512\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\AVX512</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AltiVec\Complex.h">
+      <Filter>hw1\Eigen\src\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AltiVec\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AltiVec\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\AltiVec</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\Complex.h">
+      <Filter>hw1\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\Half.h">
+      <Filter>hw1\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\PacketMathHalf.h">
+      <Filter>hw1\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\TypeCasting.h">
+      <Filter>hw1\Eigen\src\Core\arch\CUDA</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\Default\ConjHelper.h">
+      <Filter>hw1\Eigen\src\Core\arch\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\Default\Settings.h">
+      <Filter>hw1\Eigen\src\Core\arch\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\NEON\Complex.h">
+      <Filter>hw1\Eigen\src\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\NEON\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\NEON\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\NEON</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\Complex.h">
+      <Filter>hw1\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\TypeCasting.h">
+      <Filter>hw1\Eigen\src\Core\arch\SSE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\ZVector\Complex.h">
+      <Filter>hw1\Eigen\src\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\ZVector\MathFunctions.h">
+      <Filter>hw1\Eigen\src\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\ZVector\PacketMath.h">
+      <Filter>hw1\Eigen\src\Core\arch\ZVector</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\AssignmentFunctors.h">
+      <Filter>hw1\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\BinaryFunctors.h">
+      <Filter>hw1\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\NullaryFunctors.h">
+      <Filter>hw1\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\StlFunctors.h">
+      <Filter>hw1\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\TernaryFunctors.h">
+      <Filter>hw1\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\UnaryFunctors.h">
+      <Filter>hw1\Eigen\src\Core\functors</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralBlockPanelKernel.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrix.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrixTriangular.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrixTriangular_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrix_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixVector.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixVector_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\Parallelizer.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixMatrix.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixMatrix_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixVector.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixVector_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointProduct.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointRank2Update.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixMatrix.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixMatrix_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixVector.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixVector_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularSolverMatrix.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularSolverMatrix_BLAS.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularSolverVector.h">
+      <Filter>hw1\Eigen\src\Core\products</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\BlasUtil.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Constants.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\DisableStupidWarnings.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\ForwardDeclarations.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\MKL_support.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Macros.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Memory.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Meta.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\NonMPL2.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\ReenableStupidWarnings.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\StaticAssert.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\XprHelper.h">
+      <Filter>hw1\Eigen\src\Core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\ComplexEigenSolver.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\ComplexSchur.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\ComplexSchur_LAPACKE.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\EigenSolver.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\GeneralizedEigenSolver.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\HessenbergDecomposition.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\MatrixBaseEigenvalues.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\RealQZ.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\RealSchur.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\RealSchur_LAPACKE.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\SelfAdjointEigenSolver.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\SelfAdjointEigenSolver_LAPACKE.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\Tridiagonalization.h">
+      <Filter>hw1\Eigen\src\Eigenvalues</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\AlignedBox.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\AngleAxis.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\EulerAngles.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Homogeneous.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Hyperplane.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\OrthoMethods.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\ParametrizedLine.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Quaternion.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Rotation2D.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\RotationBase.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Scaling.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Transform.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Translation.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Umeyama.h">
+      <Filter>hw1\Eigen\src\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\arch\Geometry_SSE.h">
+      <Filter>hw1\Eigen\src\Geometry\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Householder\BlockHouseholder.h">
+      <Filter>hw1\Eigen\src\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Householder\Householder.h">
+      <Filter>hw1\Eigen\src\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Householder\HouseholderSequence.h">
+      <Filter>hw1\Eigen\src\Householder</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\BasicPreconditioners.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\BiCGSTAB.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\ConjugateGradient.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\IncompleteCholesky.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\IncompleteLUT.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\IterativeSolverBase.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\LeastSquareConjugateGradient.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\SolveWithGuess.h">
+      <Filter>hw1\Eigen\src\IterativeLinearSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Jacobi\Jacobi.h">
+      <Filter>hw1\Eigen\src\Jacobi</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\Determinant.h">
+      <Filter>hw1\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\FullPivLU.h">
+      <Filter>hw1\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\InverseImpl.h">
+      <Filter>hw1\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\PartialPivLU.h">
+      <Filter>hw1\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\PartialPivLU_LAPACKE.h">
+      <Filter>hw1\Eigen\src\LU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\arch\Inverse_SSE.h">
+      <Filter>hw1\Eigen\src\LU\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\MetisSupport\MetisSupport.h">
+      <Filter>hw1\Eigen\src\MetisSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\OrderingMethods\Amd.h">
+      <Filter>hw1\Eigen\src\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\OrderingMethods\Eigen_Colamd.h">
+      <Filter>hw1\Eigen\src\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\OrderingMethods\Ordering.h">
+      <Filter>hw1\Eigen\src\OrderingMethods</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\PaStiXSupport\PaStiXSupport.h">
+      <Filter>hw1\Eigen\src\PaStiXSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\PardisoSupport\PardisoSupport.h">
+      <Filter>hw1\Eigen\src\PardisoSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\ColPivHouseholderQR.h">
+      <Filter>hw1\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\ColPivHouseholderQR_LAPACKE.h">
+      <Filter>hw1\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\CompleteOrthogonalDecomposition.h">
+      <Filter>hw1\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\FullPivHouseholderQR.h">
+      <Filter>hw1\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\HouseholderQR.h">
+      <Filter>hw1\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\HouseholderQR_LAPACKE.h">
+      <Filter>hw1\Eigen\src\QR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SPQRSupport\SuiteSparseQRSupport.h">
+      <Filter>hw1\Eigen\src\SPQRSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\BDCSVD.h">
+      <Filter>hw1\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\JacobiSVD.h">
+      <Filter>hw1\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\JacobiSVD_LAPACKE.h">
+      <Filter>hw1\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\SVDBase.h">
+      <Filter>hw1\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\UpperBidiagonalization.h">
+      <Filter>hw1\Eigen\src\SVD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCholesky\SimplicialCholesky.h">
+      <Filter>hw1\Eigen\src\SparseCholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCholesky\SimplicialCholesky_impl.h">
+      <Filter>hw1\Eigen\src\SparseCholesky</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\AmbiVector.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\CompressedStorage.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\ConservativeSparseSparseProduct.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\MappedSparseMatrix.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseAssign.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseBlock.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseColEtree.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseCompressedBase.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseCwiseBinaryOp.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseCwiseUnaryOp.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseDenseProduct.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseDiagonalProduct.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseDot.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseFuzzy.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseMap.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseMatrix.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseMatrixBase.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparsePermutation.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseProduct.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseRedux.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseRef.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseSelfAdjointView.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseSolverBase.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseSparseProductWithPruning.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseTranspose.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseTriangularView.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseUtil.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseVector.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseView.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\TriangularSolver.h">
+      <Filter>hw1\Eigen\src\SparseCore</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLUImpl.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_Memory.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_Structs.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_SupernodalMatrix.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_Utils.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_column_bmod.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_column_dfs.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_copy_to_ucol.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_gemm_kernel.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_heap_relax_snode.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_kernel_bmod.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_panel_bmod.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_panel_dfs.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_pivotL.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_pruneL.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_relax_snode.h">
+      <Filter>hw1\Eigen\src\SparseLU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseQR\SparseQR.h">
+      <Filter>hw1\Eigen\src\SparseQR</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\StdDeque.h">
+      <Filter>hw1\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\StdList.h">
+      <Filter>hw1\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\StdVector.h">
+      <Filter>hw1\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\details.h">
+      <Filter>hw1\Eigen\src\StlSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SuperLUSupport\SuperLUSupport.h">
+      <Filter>hw1\Eigen\src\SuperLUSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\UmfPackSupport\UmfPackSupport.h">
+      <Filter>hw1\Eigen\src\UmfPackSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\Image.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\Kernel.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\RealSvd2x2.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\blas.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\lapack.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\lapacke.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\lapacke_mangling.h">
+      <Filter>hw1\Eigen\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\ArrayCwiseBinaryOps.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\ArrayCwiseUnaryOps.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\BlockMethods.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\CommonCwiseBinaryOps.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\CommonCwiseUnaryOps.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\MatrixCwiseBinaryOps.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\MatrixCwiseUnaryOps.h">
+      <Filter>hw1\Eigen\src\plugins</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Systems\CanvasSystem.h">
+      <Filter>hw1\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\CMakeFiles\5e83cd3af98f131d8b60459e940198c8\CanvasData_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\DevTools\CGtool\Ubpa\UGM_0_6_13\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F90E0857-D6AA-3FB2-A664-1A62F74D96B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1">
+      <UniqueIdentifier>{1B908E40-76ED-3400-93AD-5B6771538B2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Components">
+      <UniqueIdentifier>{8AF9D7A4-AA9C-3341-9092-8F506F88475D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Components\details">
+      <UniqueIdentifier>{81273153-6654-359F-8A45-7F983C26E99C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen">
+      <UniqueIdentifier>{5A086BB7-1B69-3AFD-9F42-E3C91275C3CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src">
+      <UniqueIdentifier>{32E4AB19-5C8C-35DE-9F8D-4CABD1B0B839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Cholesky">
+      <UniqueIdentifier>{B75DA708-5A83-31BF-98BE-AF0B5ED18347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\CholmodSupport">
+      <UniqueIdentifier>{3879ADB5-05A3-3185-BF35-E6F0A0D63540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core">
+      <UniqueIdentifier>{9FC45F37-0DE3-3AD4-897A-82E7CCF1C36E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch">
+      <UniqueIdentifier>{69C54FE8-C607-3EB4-AF36-0E84F58C5A1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\AVX">
+      <UniqueIdentifier>{AD65F03B-F3C3-3D2B-8276-5D99A1C35250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\AVX512">
+      <UniqueIdentifier>{D305FC2E-D081-332C-817B-259542C94FD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\AltiVec">
+      <UniqueIdentifier>{03E5E781-D3A8-3BEE-85C1-65E3845F9280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\CUDA">
+      <UniqueIdentifier>{E0CC7A1B-597F-3646-942D-E73766A80E7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\Default">
+      <UniqueIdentifier>{F00CF047-1698-30BD-B995-8151A990B274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\NEON">
+      <UniqueIdentifier>{34AF33B7-C15B-3A29-9FFA-51C735DBEF19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\SSE">
+      <UniqueIdentifier>{F4929B6F-8FF7-3461-BB5A-A1562891E6F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\arch\ZVector">
+      <UniqueIdentifier>{D25A2EA6-5F98-3597-A143-6F4AD6DDD46F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\functors">
+      <UniqueIdentifier>{D8621CB3-15A8-393C-9EEB-B7B01E8E41E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\products">
+      <UniqueIdentifier>{7F85A3DA-F7A8-3229-AC98-2DFF912BF386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Core\util">
+      <UniqueIdentifier>{447B9ED3-5AEC-3F5C-AABF-F9E09B76B56D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Eigenvalues">
+      <UniqueIdentifier>{EEF6F645-EBB7-3827-9D58-C594AB619104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Geometry">
+      <UniqueIdentifier>{B725C668-F2D5-362B-A8BF-0F7C927732F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Geometry\arch">
+      <UniqueIdentifier>{B869EE77-EF65-335C-8122-8830A29CFFEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Householder">
+      <UniqueIdentifier>{79C8C199-A1CD-30AB-A1AC-BC399A145BC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\IterativeLinearSolvers">
+      <UniqueIdentifier>{1283AA8B-B234-3E7D-957A-4B52A99CF31A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\Jacobi">
+      <UniqueIdentifier>{B062F7E3-E594-31F2-944D-AFE8E8D03087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\LU">
+      <UniqueIdentifier>{B1B47B4D-95EA-34F7-A907-4056C0147000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\LU\arch">
+      <UniqueIdentifier>{ED6E834F-9CBC-3764-806B-91111D60242B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\MetisSupport">
+      <UniqueIdentifier>{E5883B17-A6DB-327B-897D-62AADCDCB22E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\OrderingMethods">
+      <UniqueIdentifier>{BA6DC134-1AD1-370E-B658-CABCFDB8EC39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\PaStiXSupport">
+      <UniqueIdentifier>{DD930482-25B8-37EF-A5AF-7A7B9F3E2943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\PardisoSupport">
+      <UniqueIdentifier>{2262EB7B-8A47-3E1B-A8DA-BDCC9FDEBD90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\QR">
+      <UniqueIdentifier>{0DA95633-9287-32CE-A35B-94A5BC391175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SPQRSupport">
+      <UniqueIdentifier>{CECB706C-98D9-313B-BA7D-5721192DFBA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SVD">
+      <UniqueIdentifier>{57C0AACC-CD0B-39A6-82BF-04181119338D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SparseCholesky">
+      <UniqueIdentifier>{D534093D-C48A-3C5E-A00D-FBF174253AA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SparseCore">
+      <UniqueIdentifier>{E7435259-4C75-35AB-A0B7-C07452925DE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SparseLU">
+      <UniqueIdentifier>{04449536-188C-3F5B-8E4B-595DBA74F3F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SparseQR">
+      <UniqueIdentifier>{003DF111-42F4-39D2-A52B-499009C89B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\StlSupport">
+      <UniqueIdentifier>{92607907-2102-313D-96C2-3BBAE33E9918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\SuperLUSupport">
+      <UniqueIdentifier>{8751875F-7986-39A0-8A67-4D1A6B6AC674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\UmfPackSupport">
+      <UniqueIdentifier>{1872C46F-1B24-3710-A042-B9F41D6DBC90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\misc">
+      <UniqueIdentifier>{B968B338-FB09-3DC4-8495-376C74349DD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Eigen\src\plugins">
+      <UniqueIdentifier>{7561642D-F275-3DDC-9539-5B0F71F5A39B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw1\Systems">
+      <UniqueIdentifier>{0605F8A5-737D-3A5D-97EE-0A771FAC3F8E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

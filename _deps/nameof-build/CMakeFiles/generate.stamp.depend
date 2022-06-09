@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+D:/Some Dev Tools/CMake/Download/cmake-3.20.0/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-src/CMakeLists.txt

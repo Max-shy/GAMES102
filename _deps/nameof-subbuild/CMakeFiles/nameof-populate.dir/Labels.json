@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/nameof-populate"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/fa7db5239e43e92694428e75e19e8944/nameof-populate.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/54382da8da14e1a95770f5b4573f3460/nameof-populate-complete.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-build.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-configure.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-download.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-install.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-mkdir.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-patch.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-test.rule"
+		},
+		{
+			"file" : "E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/_deps/nameof-subbuild/CMakeFiles/a2c181e4e022d3fd37974dcae62bbe2d/nameof-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nameof-populate"
+		],
+		"name" : "nameof-populate"
+	}
+}

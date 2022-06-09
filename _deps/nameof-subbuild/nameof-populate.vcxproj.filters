@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\a2c181e4e022d3fd37974dcae62bbe2d\nameof-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\54382da8da14e1a95770f5b4573f3460\nameof-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\fa7db5239e43e92694428e75e19e8944\nameof-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-subbuild\CMakeFiles\nameof-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B5AA5670-8472-3621-A237-45C21A2340C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

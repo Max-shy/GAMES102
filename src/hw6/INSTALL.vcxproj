@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2A2D1DD5-1FDE-334C-AEB3-39D20B4296B3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>INSTALL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message></Message>
+      <Command>setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message></Message>
+      <Command>setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message></Message>
+      <Command>setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message></Message>
+      <Command>setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\CMakeFiles\10ea6ed5e043bb97c781bdc5746655db\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw6\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw6\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw6\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw6\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\ZERO_CHECK.vcxproj">
+      <Project>{36C57253-915F-3108-AC80-D8D6BB3817B9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-build\ALL_BUILD.vcxproj">
+      <Project>{6FA4C95C-E211-3941-8A91-F40909C641C9}</Project>
+      <Name>ALL_BUILD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

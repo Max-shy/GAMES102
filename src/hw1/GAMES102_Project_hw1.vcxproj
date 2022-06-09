@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{803FF9B5-2EFC-31D3-9BDC-A6DB05281058}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GAMES102_Project_hw1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GAMES102_Project_hw1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GAMES102_Project_hw1d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GAMES102_Project_hw1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GAMES102_Project_hw1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GAMES102_Project_hw1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GAMES102_Project_hw1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GAMES102_Project_hw1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GAMES102_Project_hw1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_Editord.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_DX12Appd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Assetd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_crossguidd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_tinyobjloaderd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_ScriptSystemd.lib;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\lib\luad.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Renderd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Cored.lib;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\lib\UDX12_cored.lib;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\lib\UFG_cored.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\lib\UECS_cored.lib;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\lib\UContainer_cored.lib;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\lib\UGraphviz_cored.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_imguid.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_spdlogd.lib;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\lib\UANTLR_runtimed.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/lib/GAMES102_Project_hw1d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin/GAMES102_Project_hw1d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_Editor.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_DX12App.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Asset.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_crossguid.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_tinyobjloader.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_ScriptSystem.lib;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\lib\lua.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Render.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Core.lib;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\lib\UDX12_core.lib;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\lib\UFG_core.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\lib\UECS_core.lib;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\lib\UContainer_core.lib;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\lib\UGraphviz_core.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_imgui.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_spdlog.lib;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\lib\UANTLR_runtime.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/lib/GAMES102_Project_hw1.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin/GAMES102_Project_hw1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_Editord.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_DX12Appd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Assetd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_crossguidd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_tinyobjloaderd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_ScriptSystemd.lib;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\lib\luad.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Renderd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Cored.lib;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\lib\UDX12_cored.lib;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\lib\UFG_cored.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\lib\UECS_cored.lib;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\lib\UContainer_cored.lib;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\lib\UGraphviz_cored.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_imguid.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_spdlogd.lib;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\lib\UANTLR_runtimed.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/lib/MinSizeRel/GAMES102_Project_hw1.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin/MinSizeRel/GAMES102_Project_hw1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\DevTools\CGtool\Ubpa\UCMake_0_6_3\include;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\include;D:\DevTools\CGtool\Ubpa\UHEMesh_0_5_3\include;E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\_deps\nameof-src\include;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include;D:\DevTools\CGtool\Ubpa\URapidJSON_0_0_3\include;D:\DevTools\CGtool\Ubpa\UDP_0_7_4\include;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\include;D:\DevTools\CGtool\Ubpa\UTemplate_0_4_9\include;D:\DevTools\CGtool\Ubpa\USTL_0_2_0\include;D:\DevTools\CGtool\Ubpa\UGM_0_6_13\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\include;D:\DevTools\CGtool\Ubpa\USRefl_0_7_1\include;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\include;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\include;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\include;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\include;D:\DevTools\CGtool\Ubpa\ULuaPP_0_2_0\include\_deps;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\include\_deps;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_Editord.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_App_DX12Appd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Assetd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_crossguidd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_tinyobjloaderd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_ScriptSystemd.lib;D:\DevTools\CGtool\Ubpa\ULua_0_1_2\lib\luad.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Renderd.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia_Cored.lib;D:\DevTools\CGtool\Ubpa\UDX12_0_0_12\lib\UDX12_cored.lib;D:\DevTools\CGtool\Ubpa\UFG_0_3_3\lib\UFG_cored.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;D:\DevTools\CGtool\Ubpa\UECS_0_14_4\lib\UECS_cored.lib;D:\DevTools\CGtool\Ubpa\UContainer_0_0_9\lib\UContainer_cored.lib;D:\DevTools\CGtool\Ubpa\UGraphviz_0_1_6\lib\UGraphviz_cored.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_imguid.lib;D:\DevTools\CGtool\Ubpa\Utopia_0_0_5\lib\Utopia__deps_spdlogd.lib;D:\DevTools\CGtool\Ubpa\UANTLR_0_2_0\lib\UANTLR_runtimed.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/lib/RelWithDebInfo/GAMES102_Project_hw1.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/bin/RelWithDebInfo/GAMES102_Project_hw1.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\CMakeFiles\5e83cd3af98f131d8b60459e940198c8\CanvasData_AutoRefl.inl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../src/hw1/Components/details/CanvasData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\DevTools\CGtool\Ubpa\bin\AutoRefld.exe E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/CanvasData.h E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/details/CanvasData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\DevTools\CGtool\Ubpa\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\details\CanvasData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../src/hw1/Components/details/CanvasData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\DevTools\CGtool\Ubpa\bin\AutoRefl.exe E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/CanvasData.h E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/details/CanvasData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\DevTools\CGtool\Ubpa\bin\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\details\CanvasData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../../../src/hw1/Components/details/CanvasData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\DevTools\CGtool\Ubpa\bin\AutoRefld.exe E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/CanvasData.h E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/details/CanvasData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\DevTools\CGtool\Ubpa\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\details\CanvasData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../src/hw1/Components/details/CanvasData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\DevTools\CGtool\Ubpa\bin\AutoRefld.exe E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/CanvasData.h E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/Components/details/CanvasData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\DevTools\CGtool\Ubpa\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\details\CanvasData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -SE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project -BE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build --check-stamp-file E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/src/hw1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -SE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project -BE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build --check-stamp-file E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/src/hw1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -SE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project -BE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build --check-stamp-file E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/src/hw1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/src/hw1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Some Dev Tools\CMake\Download\cmake-3.20.0\bin\cmake.exe" -SE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project -BE:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build --check-stamp-file E:/CG/Games/GAMES102/Assignment/102/GAMES102-main/homeworks/project/build/src/hw1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\src\hw1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\details\CanvasData_AutoRefl.inl" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Components\CanvasData.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Cholesky\LDLT.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Cholesky\LLT.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Cholesky\LLT_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\CholmodSupport\CholmodSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Array.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ArrayBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ArrayWrapper.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Assign.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\AssignEvaluator.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Assign_MKL.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\BandMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Block.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\BooleanRedux.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CommaInitializer.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ConditionEstimator.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CoreEvaluators.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CoreIterators.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseBinaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseNullaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseTernaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseUnaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\CwiseUnaryView.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DenseBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DenseCoeffsBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DenseStorage.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Diagonal.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DiagonalMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\DiagonalProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Dot.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\EigenBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ForceAlignedAccess.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Fuzzy.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\GeneralProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\GenericPacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\GlobalFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\IO.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Inverse.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Map.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MapBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MathFunctionsImpl.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Matrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\MatrixBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\NestByValue.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\NoAlias.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\NumTraits.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\PermutationMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\PlainObjectBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Product.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ProductEvaluators.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Random.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Redux.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Ref.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Replicate.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\ReturnByValue.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Reverse.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Select.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SelfAdjointView.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SelfCwiseBinaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Solve.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SolveTriangular.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\SolverBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\StableNorm.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Stride.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Swap.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Transpose.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Transpositions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\TriangularMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\VectorBlock.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\VectorwiseOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\Visitor.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\Complex.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX\TypeCasting.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX512\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AVX512\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AltiVec\Complex.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AltiVec\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\AltiVec\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\Complex.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\Half.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\PacketMathHalf.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\CUDA\TypeCasting.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\Default\ConjHelper.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\Default\Settings.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\NEON\Complex.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\NEON\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\NEON\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\Complex.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\SSE\TypeCasting.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\ZVector\Complex.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\ZVector\MathFunctions.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\arch\ZVector\PacketMath.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\AssignmentFunctors.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\BinaryFunctors.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\NullaryFunctors.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\StlFunctors.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\TernaryFunctors.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\functors\UnaryFunctors.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralBlockPanelKernel.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrixTriangular.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrixTriangular_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixMatrix_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\GeneralMatrixVector_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\Parallelizer.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixMatrix_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointMatrixVector_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\SelfadjointRank2Update.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixMatrix_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularMatrixVector_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularSolverMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularSolverMatrix_BLAS.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\products\TriangularSolverVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\BlasUtil.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Constants.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\DisableStupidWarnings.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\ForwardDeclarations.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\MKL_support.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Macros.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Memory.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\Meta.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\NonMPL2.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\ReenableStupidWarnings.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\StaticAssert.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Core\util\XprHelper.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\ComplexEigenSolver.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\ComplexSchur.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\ComplexSchur_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\EigenSolver.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\GeneralizedEigenSolver.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\GeneralizedSelfAdjointEigenSolver.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\HessenbergDecomposition.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\MatrixBaseEigenvalues.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\RealQZ.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\RealSchur.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\RealSchur_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\SelfAdjointEigenSolver.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\SelfAdjointEigenSolver_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Eigenvalues\Tridiagonalization.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\AlignedBox.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\AngleAxis.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\EulerAngles.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Homogeneous.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Hyperplane.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\OrthoMethods.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\ParametrizedLine.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Quaternion.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Rotation2D.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\RotationBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Scaling.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Transform.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Translation.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\Umeyama.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Geometry\arch\Geometry_SSE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Householder\BlockHouseholder.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Householder\Householder.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Householder\HouseholderSequence.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\BasicPreconditioners.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\BiCGSTAB.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\ConjugateGradient.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\IncompleteCholesky.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\IncompleteLUT.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\IterativeSolverBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\LeastSquareConjugateGradient.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\IterativeLinearSolvers\SolveWithGuess.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\Jacobi\Jacobi.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\Determinant.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\FullPivLU.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\InverseImpl.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\PartialPivLU.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\PartialPivLU_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\LU\arch\Inverse_SSE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\MetisSupport\MetisSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\OrderingMethods\Amd.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\OrderingMethods\Eigen_Colamd.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\OrderingMethods\Ordering.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\PaStiXSupport\PaStiXSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\PardisoSupport\PardisoSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\ColPivHouseholderQR.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\ColPivHouseholderQR_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\CompleteOrthogonalDecomposition.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\FullPivHouseholderQR.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\HouseholderQR.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\QR\HouseholderQR_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SPQRSupport\SuiteSparseQRSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\BDCSVD.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\JacobiSVD.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\JacobiSVD_LAPACKE.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\SVDBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SVD\UpperBidiagonalization.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCholesky\SimplicialCholesky.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCholesky\SimplicialCholesky_impl.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\AmbiVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\CompressedStorage.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\ConservativeSparseSparseProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\MappedSparseMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseAssign.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseBlock.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseColEtree.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseCompressedBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseCwiseBinaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseCwiseUnaryOp.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseDenseProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseDiagonalProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseDot.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseFuzzy.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseMap.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseMatrixBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparsePermutation.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseProduct.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseRedux.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseRef.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseSelfAdjointView.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseSolverBase.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseSparseProductWithPruning.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseTranspose.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseTriangularView.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseUtil.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\SparseView.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseCore\TriangularSolver.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLUImpl.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_Memory.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_Structs.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_SupernodalMatrix.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_Utils.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_column_bmod.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_column_dfs.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_copy_to_ucol.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_gemm_kernel.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_heap_relax_snode.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_kernel_bmod.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_panel_bmod.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_panel_dfs.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_pivotL.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_pruneL.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseLU\SparseLU_relax_snode.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SparseQR\SparseQR.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\StdDeque.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\StdList.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\StdVector.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\StlSupport\details.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\SuperLUSupport\SuperLUSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\UmfPackSupport\UmfPackSupport.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\Image.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\Kernel.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\RealSvd2x2.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\blas.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\lapack.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\lapacke.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\misc\lapacke_mangling.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\ArrayCwiseBinaryOps.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\ArrayCwiseUnaryOps.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\BlockMethods.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\CommonCwiseBinaryOps.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\CommonCwiseUnaryOps.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\MatrixCwiseBinaryOps.h" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Eigen\src\plugins\MatrixCwiseUnaryOps.h" />
+    <ClCompile Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Systems\CanvasSystem.cpp" />
+    <ClInclude Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\Systems\CanvasSystem.h" />
+    <ClCompile Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\src\hw1\main.cpp" />
+    <Natvis Include="D:\DevTools\CGtool\Ubpa\UGM_0_6_13\vs\UGM.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\CG\Games\GAMES102\Assignment\102\GAMES102-main\homeworks\project\build\ZERO_CHECK.vcxproj">
+      <Project>{36C57253-915F-3108-AC80-D8D6BB3817B9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
